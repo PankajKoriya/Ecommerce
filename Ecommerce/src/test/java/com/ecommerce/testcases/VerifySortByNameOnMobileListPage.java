@@ -44,6 +44,8 @@ public class VerifySortByNameOnMobileListPage extends BaseClass{
 		Assert.assertTrue(sortOrder);
 		
 		logger.info("Mobile list is sorted by name");
+		
+		System.out.println("Test case is passed");
 	}
 	
 
