@@ -17,6 +17,8 @@ public class MobilePage{
 	By homepageTitle = By.xpath("//h2[contains(text(),'This is demo')]");
 	By mobilepageTitle = By.xpath("//h1[contains(text(),'Mobile')]");
 	By mobileItems = By.xpath("//h2[@class='product-name']");
+	By sonyXprice = By.xpath("//span[@id='product-price-1']/span");
+	By sonyXlink = By.xpath("//a[@title='Sony Xperia']");
 	
 	public MobilePage(WebDriver ldriver)
 	{
@@ -90,7 +92,16 @@ public class MobilePage{
 		{
 			return false;
 		}
-		
-		
 	}
+	
+	public String getSonyXprice()
+	{
+		return driver.findElement(sonyXprice).getText();
+	}
+	
+	public void clickSonyXlink()
+	{
+		driver.findElement(sonyXlink).click();
+	}
+	
 }

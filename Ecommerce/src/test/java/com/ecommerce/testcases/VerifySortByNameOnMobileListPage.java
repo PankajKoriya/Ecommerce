@@ -11,7 +11,7 @@ public class VerifySortByNameOnMobileListPage extends BaseClass{
 	@Test
 	public void verifySorting()
 	{
-		logger = extent.createTest("Verify Mobile Sort Order");
+		logger = extent.createTest("Verify Mobiles Sort Order");
 		
 		MobilePage mp = new MobilePage(driver);
 		
@@ -45,7 +45,6 @@ public class VerifySortByNameOnMobileListPage extends BaseClass{
 		
 		logger.info("Mobile list is sorted by name");
 		
-		System.out.println("Test case is passed");
 	}
 	
 

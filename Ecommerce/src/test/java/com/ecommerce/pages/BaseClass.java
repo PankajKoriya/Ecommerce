@@ -65,6 +65,7 @@ public class BaseClass {
 		extent.flush();
 		
 		Reporter.log("Extent report is generated with screenshot",true);
+		
 	}
 	
 	@AfterClass

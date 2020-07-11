@@ -20,12 +20,12 @@
       <![CDATA[Browser is closed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="134305" started-at="2020-07-10T11:10:43Z" finished-at="2020-07-10T11:12:57Z">
+  <suite name="Default suite" duration-ms="164168" started-at="2020-07-11T13:40:28Z" finished-at="2020-07-11T13:43:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="134305" started-at="2020-07-10T11:10:43Z" finished-at="2020-07-10T11:12:57Z">
+    <test name="Default test" duration-ms="164168" started-at="2020-07-11T13:40:28Z" finished-at="2020-07-11T13:43:13Z">
       <class name="com.ecommerce.testcases.VerifySortByNameOnMobileListPage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="setUp" is-config="true" duration-ms="275" started-at="2020-07-10T11:10:42Z" finished-at="2020-07-10T11:10:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="setUp" is-config="true" duration-ms="31122" started-at="2020-07-11T13:39:50Z" finished-at="2020-07-11T13:40:21Z">
           <reporter-output>
             <line>
               <![CDATA[Test suite setup is started]]>
@@ -35,7 +35,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="OpenApplication" is-config="true" duration-ms="12032" started-at="2020-07-10T11:10:43Z" finished-at="2020-07-10T11:10:55Z">
+        <test-method status="PASS" signature="OpenApplication()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="OpenApplication" is-config="true" duration-ms="46658" started-at="2020-07-11T13:40:29Z" finished-at="2020-07-11T13:41:15Z">
           <reporter-output>
             <line>
               <![CDATA[Open browser setup is started]]>
@@ -45,11 +45,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- OpenApplication -->
-        <test-method status="PASS" signature="verifySorting()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="verifySorting" duration-ms="119337" started-at="2020-07-10T11:10:55Z" finished-at="2020-07-10T11:12:54Z">
+        <test-method status="PASS" signature="verifySorting()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="verifySorting" duration-ms="8059" started-at="2020-07-11T13:41:23Z" finished-at="2020-07-11T13:41:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySorting -->
-        <test-method status="PASS" signature="testResult(org.testng.ITestResult)[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="testResult" is-config="true" duration-ms="1726" started-at="2020-07-10T11:12:54Z" finished-at="2020-07-10T11:12:56Z">
+        <test-method status="PASS" signature="testResult(org.testng.ITestResult)[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="testResult" is-config="true" duration-ms="53823" started-at="2020-07-11T13:41:31Z" finished-at="2020-07-11T13:42:25Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="closeBrowser" is-config="true" duration-ms="1162" started-at="2020-07-10T11:12:56Z" finished-at="2020-07-10T11:12:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.ecommerce.testcases.VerifySortByNameOnMobileListPage@6ca8564a]" name="closeBrowser" is-config="true" duration-ms="23333" started-at="2020-07-11T13:42:48Z" finished-at="2020-07-11T13:43:11Z">
           <reporter-output>
             <line>
               <![CDATA[Browser is closed]]>
